@@ -1,0 +1,4 @@
+variable 
+declare or define 
+assign / overwrite 
+console show 
