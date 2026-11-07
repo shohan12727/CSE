@@ -35,7 +35,25 @@ int main()
     return 0;
 }
 
-
 // Write a C program to find all the factors of a number.
 
+#include <stdio.h>
+
+int main()
+{
+    int i, number;
+
+    printf("Enter the number: ");
+    scanf("%d", &number);
+
+    for (i = 1; i <= number / 2; i++)
+    {
+        if (number % i == 0)
+        {
+            printf("%d ", i);
+        }
+    }
+
+    return 0;
+}
 
