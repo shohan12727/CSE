@@ -7,9 +7,9 @@
 
 #include <stdio.h>
 
-int main () 
+int main()
 {
-    int x, y , unit;
+    int x, y, unit;
     char direction;
 
     printf("Enter current coordinate (x and y positions): ");
@@ -19,9 +19,9 @@ int main ()
     scanf("%d", &unit);
 
     printf("Enter Direction: ");
-    scanf(" %c",&direction);
+    scanf(" %c", &direction);
 
-    switch(direction)
+    switch (direction)
     {
     case 'N':
     case 'n':
@@ -46,15 +46,9 @@ int main ()
     default:
         printf("Invalid Syntax!\n");
         return 0;
-
-
     }
 
-
     printf("New co-ordinate: (%d,%d)\n", x, y);
-    
-
-
 
     return 0;
 }
